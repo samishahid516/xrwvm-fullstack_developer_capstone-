@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About Us</title>
-    <link rel="stylesheet" href="style.css">
+    <title>About Us - Car Dealership</title>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="About.html" class="active">About Us</a>
-        <a href="Contact.html">Contact Us</a>
-    </nav>
-    <h1>About Us</h1>
-    <p>Welcome to Best Cars Dealership. We are committed to providing the best car buying experience.</p>
-    <div class="team">
-        <div class="member">
-            <img src="person1.jpg" alt="Jane Doe">
-            <h3>Jane Doe</h3>
-            <p>CEO</p>
-            <p>jane@example.com</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">Car Dealership</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="/about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="member">
-            <img src="person2.jpg" alt="John Smith">
-            <h3>John Smith</h3>
-            <p>Sales Manager</p>
-            <p>john@example.com</p>
+    </nav>
+    <div class="container mt-5">
+        <h1 class="text-center">About Us</h1>
+        <div class="row mt-4">
+            <div class="col-md-4 text-center">
+                <img src="/static/team1.jpg" class="rounded-circle" width="150" height="150" alt="CEO">
+                <h3>Sarah Johnson</h3>
+                <p><strong>CEO & Founder</strong></p>
+                <p>15+ years in automotive industry</p>
+                <p>Email: sarah.johnson@dealership.com</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="/static/team2.jpg" class="rounded-circle" width="150" height="150" alt="Sales Manager">
+                <h3>Michael Chen</h3>
+                <p><strong>Sales Manager</strong></p>
+                <p>Expert in customer relations</p>
+                <p>Email: michael.chen@dealership.com</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="/static/team3.jpg" class="rounded-circle" width="150" height="150" alt="Operations Director">
+                <h3>Emily Rodriguez</h3>
+                <p><strong>Operations Director</strong></p>
+                <p>10 years in operations management</p>
+                <p>Email: emily.rodriguez@dealership.com</p>
+            </div>
         </div>
     </div>
 </body>
