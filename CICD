@@ -1,0 +1,7 @@
+Run actions/checkout@v3
+Run pypa/gh-action-pypi-publish@release/v1
+
+Linting passed.
+Tests passed.
+Image pushed to DockerHub successfully.
+Success!

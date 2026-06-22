@@ -1,0 +1,2 @@
+curl http://localhost:8000/djangoapp/reviews/dealer/1
+{"status": 200, "reviews": [{"id": 1, "name": "Burt", "dealership": 1, "review": "Great cars", "purchase": true, "purchase_date": "2023-01-01", "car_make": "Audi", "car_model": "A4", "car_year": 2020, "sentiment": "positive"}]}
